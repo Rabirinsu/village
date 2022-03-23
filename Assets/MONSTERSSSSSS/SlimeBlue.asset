@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695ccc1040758944ca75ba6a63108edb, type: 3}
+  m_Name: SlimeBlue
+  m_EditorClassIdentifier: 
+  Name: SlimeBlue
+  Description: 'Level 2 Slime '
+  speed: 0.5
+  atakRange: 2
+  atakTime: 1
+  takeDamageTime: 0.4
+  sphereRadius: 1.2
+  deathDelay: 2
+  agent: {fileID: -1578386619331311374, guid: 38efdaadbfe1d624bbee439cb02e7661, type: 3}
+  HealthBonus: 150
+  Damage: 20
+  coinAmount: 6
+  perCoin: 5
+  spawnPointX1: -17
+  spawnPointX2: -30
+  spawnPointY: 0.3
+  spawnPointZ1: 0
+  spawnPointZ2: 30
+  destinationPointX1: -17
+  destinationPointX2: -30
+  destinationPointY: 0.3
+  destinationPointZ1: -20
+  destinationPointZ2: -20

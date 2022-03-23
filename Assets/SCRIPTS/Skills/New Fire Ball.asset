@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 872f6d2dd76eceb43acc85b1d55c20b8, type: 3}
+  m_Name: New Fire Ball
+  m_EditorClassIdentifier: 
+  spellName: FireBall
+  spellSprite: {fileID: 21300000, guid: dd3885098198d104888439be4c590aba, type: 3}
+  spellPrepareSound: {fileID: 8300000, guid: c64f1e090a3391a489b414d4c4be7345, type: 3}
+  spellSound: {fileID: 8300000, guid: a4667b5fc684a954687895c3d994833a, type: 3}
+  spellCoolDown: 1.5
+  spellRange: 0
+  skillshotSpeed: 0.05
+  spellDuration: 3
+  DelayTime: 0.4
+  animationName: FireAttack
+  spellFX: {fileID: 19800002, guid: 3d4907e6bd39f474b8fd8220920e65c4, type: 3}
+  damage: 60
+  damageMultiply: 0.4
+  UpgradePrice: 25
+  priceMultiply: 1.2
+  fireBallObject: {fileID: 5197882096642675394, guid: b60f2e87746bb3d4fabdb7bcc38878ba, type: 3}

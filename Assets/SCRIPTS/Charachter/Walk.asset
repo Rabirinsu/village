@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f9197f96d3ad741971a836af6ace6e, type: 3}
+  m_Name: Walk
+  m_EditorClassIdentifier: 
+  transitions:
+  - {fileID: 11400000, guid: 6b5fe741053a2bf4880e77b1cca3435c, type: 2}
+  - {fileID: 11400000, guid: ab27af9e3373089458a6fad56110a075, type: 2}
+  Char: {fileID: 1248815240492774, guid: ccd8c3b89aa02e943a08ab9238a8a70c, type: 3}
